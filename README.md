@@ -13,9 +13,9 @@ CREATE DATABASE test;
 
 Change these lines in the db.js file according to your db server:
 
-host: 'localhost', //change according to you server host for db
-user: 'root', //change use
-password: 'abcd', //change password
+1. host: 'localhost', //change according to you server host for db
+2. user: 'root', //change use
+3. password: 'abcd', //change password
 
 **_NOTE:_** Please keep the database name test
 
