@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headless CMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Headless CMS</h1>
+  
+  <h2>Create Entity</h2>
+  <form id="createEntityForm">
+    <input type="text" id="entityName" placeholder="Entity Name" required><br><br>
+
+    <div id="attributes"></div>
+    <button type="button" id="addAttribute">Add Attribute</button><br><br>
+
+    <button type="submit">Create Entity</button>
+  </form>
+
+  <h2>Entities</h2>
+  <ul id="entity-list"></ul>
+  <script src="script.js"></script>
+
+</body>
+</html>
